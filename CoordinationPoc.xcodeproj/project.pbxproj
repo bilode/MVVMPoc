@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E576F82158D8980084955D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E576F72158D8980084955D /* Dynamic.swift */; };
+		34E576FA2158E6480084955D /* CoordinationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E576F92158E6480084955D /* CoordinationTest.swift */; };
+		34E576FC2158E6DF0084955D /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E576FB2158E6DF0084955D /* TestViewModel.swift */; };
+		34E576FE215907660084955D /* CoordinationLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E576FD215907660084955D /* CoordinationLevel.swift */; };
+		34E57700215936B00084955D /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E576FF215936B00084955D /* TestView.xib */; };
+		34E5770221593DE00084955D /* CoordinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5770121593DE00084955D /* CoordinationVC.swift */; };
+		34E5770421593FA20084955D /* UIViewController+Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5770321593FA20084955D /* UIViewController+Subview.swift */; };
+		34E57706215D1F9A0084955D /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E57705215D1F990084955D /* ShapeView.swift */; };
+		34E57708215D20B60084955D /* ShapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E57707215D20B60084955D /* ShapeView.xib */; };
+		34E5770A215D21640084955D /* ShapeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E57709215D21640084955D /* ShapeViewModel.swift */; };
 		34F71FCE215522F100B6F536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F71FCD215522F100B6F536 /* AppDelegate.swift */; };
-		34F71FD0215522F100B6F536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F71FCF215522F100B6F536 /* ViewController.swift */; };
+		34F71FD0215522F100B6F536 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F71FCF215522F100B6F536 /* ExerciseViewController.swift */; };
 		34F71FD3215522F100B6F536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F71FD1215522F100B6F536 /* Main.storyboard */; };
 		34F71FD5215522F300B6F536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F71FD4215522F300B6F536 /* Assets.xcassets */; };
 		34F71FD8215522F300B6F536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F71FD6215522F300B6F536 /* LaunchScreen.storyboard */; };
+		34F71FE3215523B100B6F536 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F71FE2215523B100B6F536 /* TestView.swift */; };
+		34F71FE5215523BC00B6F536 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F71FE4215523BC00B6F536 /* LevelViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34E576F72158D8980084955D /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		34E576F92158E6480084955D /* CoordinationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationTest.swift; sourceTree = "<group>"; };
+		34E576FB2158E6DF0084955D /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		34E576FD215907660084955D /* CoordinationLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationLevel.swift; sourceTree = "<group>"; };
+		34E576FF215936B00084955D /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		34E5770121593DE00084955D /* CoordinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationVC.swift; sourceTree = "<group>"; };
+		34E5770321593FA20084955D /* UIViewController+Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Subview.swift"; sourceTree = "<group>"; };
+		34E57705215D1F990084955D /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		34E57707215D20B60084955D /* ShapeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShapeView.xib; sourceTree = "<group>"; };
+		34E57709215D21640084955D /* ShapeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewModel.swift; sourceTree = "<group>"; };
 		34F71FCA215522F100B6F536 /* CoordinationPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinationPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F71FCD215522F100B6F536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34F71FCF215522F100B6F536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34F71FCF215522F100B6F536 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		34F71FD2215522F100B6F536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F71FD4215522F300B6F536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F71FD7215522F300B6F536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F71FD9215522F300B6F536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F71FE2215523B100B6F536 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		34F71FE4215523BC00B6F536 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,50 @@
 		34F71FCC215522F100B6F536 /* CoordinationPoc */ = {
 			isa = PBXGroup;
 			children = (
+				34E5770121593DE00084955D /* CoordinationVC.swift */,
+				34F71FE1215523A100B6F536 /* View */,
+				34F71FE02155230B00B6F536 /* ViewModel */,
+				34F71FDF2155230100B6F536 /* Model */,
+				34E576F72158D8980084955D /* Dynamic.swift */,
+				34E5770321593FA20084955D /* UIViewController+Subview.swift */,
 				34F71FCD215522F100B6F536 /* AppDelegate.swift */,
-				34F71FCF215522F100B6F536 /* ViewController.swift */,
+				34F71FCF215522F100B6F536 /* ExerciseViewController.swift */,
 				34F71FD1215522F100B6F536 /* Main.storyboard */,
 				34F71FD4215522F300B6F536 /* Assets.xcassets */,
 				34F71FD6215522F300B6F536 /* LaunchScreen.storyboard */,
 				34F71FD9215522F300B6F536 /* Info.plist */,
 			);
 			path = CoordinationPoc;
+			sourceTree = "<group>";
+		};
+		34F71FDF2155230100B6F536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34E576F92158E6480084955D /* CoordinationTest.swift */,
+				34E576FD215907660084955D /* CoordinationLevel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34F71FE02155230B00B6F536 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				34E576FB2158E6DF0084955D /* TestViewModel.swift */,
+				34E57709215D21640084955D /* ShapeViewModel.swift */,
+				34F71FE4215523BC00B6F536 /* LevelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		34F71FE1215523A100B6F536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34F71FE2215523B100B6F536 /* TestView.swift */,
+				34E576FF215936B00084955D /* TestView.xib */,
+				34E57705215D1F990084955D /* ShapeView.swift */,
+				34E57707215D20B60084955D /* ShapeView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34F71FD8215522F300B6F536 /* LaunchScreen.storyboard in Resources */,
+				34E57700215936B00084955D /* TestView.xib in Resources */,
 				34F71FD5215522F300B6F536 /* Assets.xcassets in Resources */,
+				34E57708215D20B60084955D /* ShapeView.xib in Resources */,
 				34F71FD3215522F100B6F536 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F71FD0215522F100B6F536 /* ViewController.swift in Sources */,
+				34F71FD0215522F100B6F536 /* ExerciseViewController.swift in Sources */,
+				34E576F82158D8980084955D /* Dynamic.swift in Sources */,
+				34F71FE3215523B100B6F536 /* TestView.swift in Sources */,
+				34E576FE215907660084955D /* CoordinationLevel.swift in Sources */,
+				34E576FA2158E6480084955D /* CoordinationTest.swift in Sources */,
+				34E57706215D1F9A0084955D /* ShapeView.swift in Sources */,
 				34F71FCE215522F100B6F536 /* AppDelegate.swift in Sources */,
+				34E5770221593DE00084955D /* CoordinationVC.swift in Sources */,
+				34E5770A215D21640084955D /* ShapeViewModel.swift in Sources */,
+				34F71FE5215523BC00B6F536 /* LevelViewModel.swift in Sources */,
+				34E5770421593FA20084955D /* UIViewController+Subview.swift in Sources */,
+				34E576FC2158E6DF0084955D /* TestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
