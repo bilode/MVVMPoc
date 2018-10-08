@@ -10,7 +10,6 @@ import UIKit
 
 class ShapeView : UIView {
     
-    
     @IBOutlet weak var ballView: UIView!
     @IBOutlet weak var endView: UIView!
     
@@ -31,6 +30,7 @@ class ShapeView : UIView {
         styleUI()
     }
     
+    
     func fillUI() {
         
         guard let viewModel = self.viewModel else {
@@ -45,6 +45,14 @@ class ShapeView : UIView {
         viewModel.end.bindAndFire { [unowned self] in
             let frame = self.frame
             self.endView.center = CGPoint(x: frame.maxX * CGFloat($0.x) / 100.0, y: frame.maxY * CGFloat($0.y) / 100.0)
+        }
+    }
+    
+    func translateBallToTheEnd() {
+        
+        UIView.animate(withDuration: 1.0) {
+            
+            self.ballView.center = self.endView.center
         }
     }
     

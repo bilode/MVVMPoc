@@ -15,7 +15,6 @@ class ExerciseViewController: UIViewController {
         
         let uiStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = uiStoryboard.instantiateViewController(withIdentifier: "coordinationVC") as! CoordinationVC
-//        vc.viewModel = TestViewModel(fromLevel: CoordinationLevel(withJson: ""))
         
         self.insertChildController(vc, intoParentView: self.view)
     }

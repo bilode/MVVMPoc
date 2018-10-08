@@ -24,6 +24,8 @@ class ShapeViewModel : NSObject {
         self.current = Dynamic(level.currentPosition)
         self.end = Dynamic(level.endPosition)
         
+        print("Init level with start: \(self.current.value) end: \(self.end.value)")
+        
         super.init()
     }
     
@@ -34,6 +36,8 @@ class ShapeViewModel : NSObject {
         self.start.value = level.startPosition
         self.current.value = level.currentPosition
         self.end.value = level.endPosition
+        
+        print("Setup level with start: \(self.current.value) end: \(self.end.value)")
     }
     
     static func rdm() -> Int {

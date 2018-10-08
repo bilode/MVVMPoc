@@ -20,9 +20,13 @@ enum Hand {
     case left
 }
 
+enum CoordinationLevelNotification {
+    static let levelDidFinishNotification = "levelDidFinishNotification"
+}
+
 class CoordinationLevel : NSObject {
     
-    enum Status {
+    enum Status: String {
         case inactive
         case introducing
         case ongoing
@@ -54,18 +58,23 @@ class CoordinationLevel : NSObject {
                 self.beginTimestamp = Date()
             case .finished:
                 self.endTimestamp = Date()
+                NotificationCenter.default.post(name: Notification.Name(rawValue: CoordinationLevelNotification.levelDidFinishNotification), object: self)
             default:
                 break
             }
         }
     }
     
-    init(withJson json: String, hand:Hand, id: Int) {
+    init(withJson json: String, hand:Hand, id: Int, isPractice: Bool) {
         
         self.startPosition = (x: ShapeViewModel.rdm(), y:ShapeViewModel.rdm())
         self.currentPosition = startPosition
         self.endPosition = (x: ShapeViewModel.rdm(), y:ShapeViewModel.rdm())
         
+        print("start: \(startPosition.x) \(startPosition.y) end: \(endPosition.x) \(endPosition.y)")
+        
+        self.isPractice = isPractice
+        self.identifier = id
         self.path = "Path \(String(describing: id))"
         self.hand = hand
     }
